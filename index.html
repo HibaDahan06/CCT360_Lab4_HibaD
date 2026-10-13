@@ -9,14 +9,34 @@
 </head>
 
 <body>
-    <div id="motivationbox">
+    <div id="motivationBox">
         <h1>What kind of motivation do you need? </h1>
         <p>Choose what you are feeling now</p>
 
-        <button onclick="chooseMotivation"
-    
-    
+        <button onclick="chooseMotivation('tired')">
+            I'm tired
+        </button>
+
+        <button onclick="chooseMotivation('procrastinating')">
+            I'm procrastinating
+        </button>
+
+        <button onclick="chooseMotivation('doubt')">
+            I'm doubting myself
+        </button>
+
+        <h2 id="motivationTitle">
+            Choose one of the options!
+        </h2>
+
+        <p id="motivationMessage">
+            The motivation message will appear here
+        </p>
+
     </div>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>

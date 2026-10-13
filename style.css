@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#motivationBox {
+    width: 500px;
+    margin: auto;
+    background-color:gray;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+h1 {
+    color:black;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+ }
+
+ #motivationTitle {
+    margin-top: 30px;
+
+ }
+
+ #motivationMessage {
+    margin-top: 15px;
+    font-size: 20px;
+ }
